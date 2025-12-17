@@ -1,0 +1,32 @@
+body {
+    background-color: #000000; /* Tło */
+    color: #FFFFFF; /* Tekst */
+    font-family: 'JetBrains Mono', monospace; /* Czcionka */
+}
+
+/* Styl dla górnej belki */
+.header {
+    background-color: #707070; /* Kolor belki */
+    text-align: center; /* Wyśrodkowanie napisu */
+    padding: 15px 0; /* Odsunięcie */
+}
+
+/* Styl dla przycisków */
+.button {
+    background-color: #707070; /* Kolor przycisków */
+    color: #FFFFFF; /* Kolor tekstu przycisków */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px; /* Zaokrąglenie */
+    cursor: pointer;
+    display: block; /* Ustawienie elementu na blokowy */
+    margin: 15px auto; /* Wyśrodkowanie przycisku (góra/dół 15px, auto lewo/prawo) */
+    text-decoration: none; /* Usunięcie podkreślenia linków */
+}
+
+/* Teksty sekcji */
+.section-text {
+    text-align: left; /* Tekst od lewej do prawej */
+    margin-left: 20px; /* Lekkie odsunięcie od krawędzi */
+    padding-top: 30px;
+}
